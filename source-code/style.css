@@ -1,0 +1,281 @@
+.header {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-family: Skia;
+  padding:  13px;
+}
+.nav {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  background-color: #a9a9a9;
+}
+.nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px;
+  font-family: Skia;
+  margin-top:auto;   
+}
+.nav li {
+  display: inline;
+}
+.container {
+    width: 960px;
+    margin-left:auto;  
+    margin-right:auto; 
+}
+.slider {
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+  background-color: #dcdcdc;
+}
+.slider li{
+  font-family: Skia;
+}
+.email .container p {
+  color: grey;
+  font-size:12px;
+  font-family: Skia;
+}
+.introduction li {
+  padding: 5px;
+  list-style: none;
+}
+.email {
+  padding:15px;
+}
+.social_icon li {
+  display:inline;
+  padding:20px;
+}
+.skills {
+  background-color: #dcdcdc;
+  text-align: center;
+  font-family: Skia;
+}
+.skills h3 {
+  font-weight: bold;
+  padding:15px;
+}
+.project-icon {
+  background-color: #dcdcdc;
+   font-size: 15px;
+  font-family: Skia;
+  font-weight: bold;
+}
+.up-part li {
+  display: inline;
+  padding:40px;
+}
+.down-part li {
+  display: inline;
+  padding:40px;
+}
+.up-part {
+  padding-top:80px;
+  text-align: center;
+}
+.down-part {
+  padding-top:80px;
+  text-align: center;
+}
+.up-name {
+  text-align: center;
+}
+.down-name {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.up-name li {
+  display: inline;
+  margin-top:40px;
+  margin-right: 90px;
+  margin-left: 130px;
+  text-align: center;
+  font-weight: 50px;
+}
+.down-name li {
+  display: inline;
+  margin-top:100px;
+  margin-right: 60px;
+  margin-left: 95px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.screens {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-bottom: 1px solid #ddd;
+  background-color: #dcdcdc;
+}
+.screen {
+ 
+ background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.active-screen {
+    display: block;
+}
+
+.home-info p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 55px;
+}
+.home-img {
+  margin-top: 25px;
+}
+.manual-info p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 55px;
+}
+.manual-info h4 {
+  font-family: Skia;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 55px;
+  font-weight: bold;
+}
+.manual-img {
+  margin-top: 25px;
+}
+.genius-info h4 {
+  font-family: Skia;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 55px;
+  font-weight: bold;
+}
+.genius-img {
+  margin-top: 25px;
+}
+.send-info h4 {
+  font-family: Skia;
+  font-size: 25px;
+  font-weight: bold;
+}
+.send-info p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+}
+.send-img {
+  margin-top: 25px;
+}
+
+.intro-mobile p {
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+   margin-top: 50px;
+}
+.mobile-img img {
+   margin-top: 25px;
+   text-align:center;
+   padding-right: 0px;
+   padding-left:180px;
+}
+.track-intro {
+  margin-top: 30px;
+}
+.track-intro h4 {
+  font-family: Skia;
+  font-size: 25px;
+  font-weight: bold;
+}
+.track-intro p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+}
+.track-video {
+  text-align: center;
+  margin-top: 50px;
+}
+.snake-intro h4 {
+  font-family: Skia;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.snake-intro p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+}
+.snake-algo p{
+  font-family: Skia;
+  font-size: 15px;
+  text-align: left;
+  padding: 30px;
+}
+.snake-intro {
+  margin-top: 60px;
+}
+.snake-video {
+  text-align: center;
+  margin-top: 50px;
+}
+.information {
+  font-size: 15px;
+  font-family: Skia;
+}
+.summary {
+  font-size: 15px;
+  font-family: Skia;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+.personal {
+  text-align: center;
+}
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+.screen-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.screen-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+.screen-dots li.active-dot {
+  color: #363636;
+}
+.screen-nav {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+

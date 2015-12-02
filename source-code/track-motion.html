@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>my webpage</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container">
+				<h2>Lufan (Iris) Zhang</h2>
+				<h4>MS Degree In Computer Engineer</h4>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="container">
+				<ul>
+					<li><a href="../index.html">About Me</a></li>
+					<li><a href="experience.html">Experience</a></li>
+					<li><a href="../image/lufanzhang_resume.pdf">Resume</a></li>
+					<li class="dropdown">
+						<a href="projects.html" class="dropdown-toggle">Projects<b class="caret"></b></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="web-igenius.html">Web-Igenius</a></li>
+			              <li><a href="sos-helper.html">SOS-Helper</a></li>
+			              <li><a href="snake-AI.html">Greedy-AI</a></li>
+			              <li><a href="find-friends.html">Find Friends</a></li>
+			              <li><a href="track-motion.html">Track Motion</a></li>
+			            </ul>
+					</li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="screens">
+
+			<div class="screen active-screen">
+		        <div class="container">
+			        <div class="row">
+			          	<div class="track-intro">
+			          		<h4>Harris corner detector</h4>
+			          		<p>it's a robust way to find the corner of the image, it calculate the gradient in different direction of each pixel in image, calculate two eigenvalue of the matrix, if both of two values are small, this pixel is flat, if one is large and one is small, this pixel is edge, if both of two values are large, this pixel is corner.</p>
+			          		<h4>Ransac</h4>
+				            <p>Ransac-random sample consensus is an iterative method to estimate parameters of a mathematical model from a set of observed data which contains ourliers.</p>
+				            <h4>Lucas-Kanade</h4>
+				            <p>It assumes that the flow is essentially constant in a local neighbourhood of the pixel under consideration, and solves the basic optical flow equations for all the pixels in that neighbourhood, by the least squares criterion.It calculate the motion track of the same object and the same position between two frame
+							</p>
+							<p>used the <Strong>matlab</Strong> and the above theory to implment motion monitor in a vedio</p>
+			          	</div>
+			        	
+			    	</div>
+			    </div>
+			</div>
+			<div class="screen">
+			    <div class="container">
+			        <div class="row">
+			          	<div class="track-video">
+				          	<EMBED  src="../video/track-motion.mp4" autostart="false" loop="false" width="390" height="290">
+							</EMBED>
+			        	</div>
+		        	</div>
+	        	</div>
+      		</div>
+      		
+		</div>
+
+	<div class="screen-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="screen-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    </div> 
+    	 <div class="email">
+          	<div class="container">
+          		<p class="pull-right">zhanglufan.rutgers@gmail.com | Lufan Zhang</p>
+          	</div>
+          </div>
+    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>my webpage</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container">
+				<h2>Lufan (Iris) Zhang</h2>
+				<h4>MS Degree In Computer Engineer</h4>
+			</div>
+		</div>
+				<div class="nav">
+			<div class="container">
+				<ul>
+					<li><a href="../index.html">About Me</a></li>
+					<li><a href="experience.html">Experience</a></li>
+					<li><a href="../image/lufanzhang_resume.pdf">Resume</a></li>
+					<li class="dropdown">
+						<a href="projects.html" class="dropdown-toggle">Projects<b class="caret"></b></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="web-igenius.html">Web-Igenius</a></li>
+			              <li><a href="sos-helper.html">SOS-Helper</a></li>
+			              <li><a href="snake-AI.html">Greedy-AI</a></li>
+			              <li><a href="find-friends.html">Find Friends</a></li>
+			              <li><a href="track-motion.html">Track Motion</a></li>
+			            </ul>
+					</li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="screens">
+
+			<div class="screen active-screen">
+		        <div class="container">
+			        <div class="row">
+			          	<div class="home-info col-xs-6">
+				            <p>We establish a website called igenus stock prediction which will suggest stocks for the users to either buy or sell. If clients wants to buy or sell their stocks, they can use our app to get recommendation.</p>
+				            <p>We use an open source called LAMP-(linux,apache,mysql and php) to implement it.</p>
+			          	</div>
+			        	<div class="home-img col-xs-6">
+			            	<img src="../image/web-home.png" height="350px" />
+			        	</div>
+			    	</div>
+			    </div>
+			</div>
+			<div class="screen manual-screen">
+			    <div class="container">
+			        <div class="row">
+			          	<div class="manual-info col-xs-6">
+			            	<h4>manual selection</h4>
+			            	<p>selection: page where the user can enter a stock symbol, investment horizon and get detailed prediction using our advanced hybrid algorithm.</p>
+			          	</div>
+			        	<div class="manual-img col-xs-6">
+			            	<img src="../image/manual.png" height="350px" />
+			        	</div>
+		        	</div>
+	        	</div>
+      		</div>
+      		<div class="screen igenius-screen">
+			    <div class="container">
+			        <div class="row">
+			          	<div class="genius-info col-xs-6">
+			            	<h4>Genius prediction</h4>
+			            	<p>page where the user just needs to choose a desired risk tolerance level and investment time horizon. Our iGenius backend will smartly analyze all the stocks and pick the ones with highest gains within the chosen risk tolerance. We call google chart to show the candlestick chart on each page. 
+			            	</p>
+			          	</div>
+			        	<div class="genius-img col-xs-6">
+			            	<img src="../image/genius.png" height="350px" />
+			        	</div>
+		        	</div>
+	        	</div>
+      		</div>
+      		<div class="screen send-screen">
+			    <div class="container">
+			        <div class="row">
+			        	<div class="send-img">
+			            	<img src="../image/send.png" height="250px" />
+			        	</div>
+			          	<div class="send-info">
+			            	<h4>Convenient alert</h4>
+			            	<p>salert feature that allows users to set an alert on stocks of their interest. Our iGenius stock screener automatically analyzes the chosen stocks every day and sends alert email to the user when the analysis shows there is a BUY signal for given stock.
+			            	</p>
+			          	</div>
+		        	</div>
+	        	</div>
+      		</div>
+
+
+
+		</div>
+
+	<div class="screen-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="screen-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    </div> 
+    	 <div class="email">
+          	<div class="container">
+          		<p class="pull-right">zhanglufan.rutgers@gmail.com | Lufan Zhang</p>
+          	</div>
+          </div>
+    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="app.js"></script>
+	</body>
+</html>

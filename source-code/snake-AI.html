@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>my webpage</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container">
+				<h2>Lufan (Iris) Zhang</h2>
+				<h4>MS Degree In Computer Engineer</h4>
+			</div>
+		</div>
+				<div class="nav">
+			<div class="container">
+				<ul>
+					<li><a href="../index.html">About Me</a></li>
+					<li><a href="experience.html">Experience</a></li>
+					<li><a href="../image/lufanzhang_resume.pdf">Resume</a></li>
+					<li class="dropdown">
+						<a href="projects.html" class="dropdown-toggle">Projects<b class="caret"></b></a>
+			            <ul class="dropdown-menu">
+			              <li><a href="web-igenius.html">Web-Igenius</a></li>
+			              <li><a href="sos-helper.html">SOS-Helper</a></li>
+			              <li><a href="snake-AI.html">Greedy-AI</a></li>
+			              <li><a href="find-friends.html">Find Friends</a></li>
+			              <li><a href="track-motion.html">Track Motion</a></li>
+			            </ul>
+					</li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="screens">
+
+			<div class="screen active-screen">
+		        <div class="container">
+			        <div class="row">
+			          	<div class="snake-intro">
+			          		<h4>greedy snake AI</h4>
+			          		<p>this project is written by python, I import curese module, it provide us a clean user interface, it is used to show the process of how the greedy snake AI move in the board.The complexity of this project is algorithm. How to let snake eat more food with safe path until the body of snake fill the board.</p>
+				            <p>Because not only we need to find the shortest path that snake can eat the food, but also we need to consider the safety of the snake, we created a virtual snake to help real snake test the safety of the path.</p>
+			          	</div>
+			    	</div>
+			    </div>
+			</div>
+			<div class="screen">
+		        <div class="container">
+			        <div class="row">
+			          	<div class="snake-algo">
+			          		<p>Use the BFS to find if there has path between snake's head and the food, if the answer is yes, still cannot move real snake directly, because each move the snake makes, the situation of the board will be changed, which means the situation will be changed from safe to dangerous, so use the virtual snake to eat the food, and check if there is a safe path between virtual snake's head and snake's tail.</p>
+			          		<p>If there is a path between snake's head and the food, but the virtual snake tell us that it is not the safe way, treat is as that there is no path between head and food.</p>
+				            <p>Determin if there is a path between snake's head and snake's tail, if the answer is yes, move to the tail use the longest way, if he answer is no, just use the wandering method.</p>
+			          	</div>
+			    	</div>
+			    </div>
+			</div>
+			<div class="screen">
+			    <div class="container">
+			        <div class="row">
+			          	<div class="snake-video">
+				          	<EMBED  src="../video/snake.mp4" autostart="false" loop="false" width="390" height="290">
+							</EMBED>
+			        	</div>
+		        	</div>
+	        	</div>
+      		</div>
+      		
+		</div>
+
+	<div class="screen-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="screen-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    </div> 
+    	 <div class="email">
+          	<div class="container">
+          		<p class="pull-right">zhanglufan.rutgers@gmail.com | Lufan Zhang</p>
+          	</div>
+          </div>
+    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="app.js"></script>
+	</body>
+</html>
